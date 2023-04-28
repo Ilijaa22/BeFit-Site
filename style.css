@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+}
+body{
+    background-color: black!important;
+}
+
+/* ----------- SCROLLBAR ----------- */
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-track{
+    background: black; 
+}
+::-webkit-scrollbar-thumb{
+    background: red; 
+}
+::-webkit-scrollbar-thumb:hover{
+    background: white; 
+}
+
+/* ----------- HEADER ----------- */
+
+#logo{
+    font-size: 30px;
+    color: white;
+}
+#logo span{
+    color: red;
+}
+#list li a{
+    font-size: 18px;
+    color: white;
+    padding: 10px 15px;
+    transition: 0.5s;
+}
+#list li a:hover{
+    color: white;
+    background-color: red;
+    padding: 10px 15px;
+    transition: 0.5s;
+}
+
+/* ----------- HOME ----------- */
+
+#home{
+    background-size: cover;
+    background-position: center;
+    animation: animate 15s ease-in-out infinite;
+}
+@keyframes animate {
+    0%, 100%{
+        background-image: url('images/home-bg-1.jpg');
+    }
+    33%{
+        background-image: url('images/home-bg-2.jpg');
+    }
+    66%{
+        background-image: url('images/home-bg-3.jpg');
+    }
+}
+.wrapper{
+    height: 85vh;  
+    display: flex;
+    align-items: center;
+}
+.content p{
+    font-size: 25px;
+    color: red;
+}
+.content h1{
+    font-size: 60px;
+    color: white;
+}
+#btn{
+    background-color: red;
+    color: white;
+    border-radius: 0;
+    padding: 5px 25px;
+    transition: 0.5s;
+    font-size: 18px;
+    margin: 13px 0px;
+    border: 0;
+    transition: 0.5s;
+    clip-path: polygon(
+      0% 0px,0px 0%,calc(100% - 0px) 0%,100% 20px,105% calc(100% - 20px),calc(103% - 20px) 100%,0px 100%,0 calc(100% - 20px)
+    );
+}
+#btn:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/* ----------- ABOUT ----------- */
+
+#about img{
+    width: 100%;
+}
+.about-img{
+    border: 2px solid red;
+}
+.about-us{
+    margin: 50px;
+}
+.about-us h3{
+    color: red;
+}
+.about-us h2{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+.about-us h4{
+    color: white;
+    font-weight: bold;
+}
+.about-us p{
+    color: gray;
+}
+.about-us i{
+    color: red;
+}
+
+/* ----------- FEATURES ----------- */
+
+#features h1{
+    color: red;
+}
+.feature-content{
+    background-color: rgb(12, 11, 11);
+}
+.feature-content img{
+    filter: invert(1);
+    position: relative;
+}
+.feature-content h3{
+    color: red;
+}
+.feature-content p{
+    color: white;
+    font-size: 20px;
+}
+
+/* ----------- PRICING ----------- */
+
+#pricing h1{
+    color: red;
+}
+.pricing-content h4{
+    color: red;
+}
+.pricing-content h1{
+    color: white !important;
+    font-size: 55px;
+}
+.pricing-content p{
+    color: gray;
+}
+.pricing-content i{
+    color: red;
+}
+#basic{
+    background-color: rgb(21, 21, 21);
+}
+.price-plan h2{
+    color: white;
+}
+.price-plan h3{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+.price-plan span{
+    color: red;
+    font-size: 70px;
+}
+.price-plan p{
+    color: gray;
+}
+.price-plan i{
+    color: red;
+}
+.price-plan{
+    transition: 1s;
+}
+.price-plan:hover{
+    border: 1px solid red;
+    transition: 1s;
+    transform: scale(1.04);
+}
+
+/* ----------- TRAINERS ----------- */
+
+.trainer-block{
+    height: 500px;
+    overflow: hidden;
+}
+.name{
+    background-color: rgb(21, 21, 21);
+    padding: 15px;
+    height: 100px;
+    bottom: 100px;
+    position: relative;
+    transition: 0.7s;
+    overflow: hidden;
+}
+.trainer-block:hover .name{
+    bottom: 180px;
+    height: 180px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.social{
+    transition: 0.7s;
+}
+.social i{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 0 10px;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+.social i:hover{
+    color: red;
+    transition: 0.5s;
+}
+#trainers h1{
+    color: red;
+}
+.name h4{
+    color: white;
+}
+.name h5{
+    color: red;
+}
+
+/* ----------- BANNER ----------- */
+
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(/images/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#banner h3{
+    color: red;
+}
+#banner h1{
+    text-transform: uppercase;
+    color: white;
+}
+#banner p{
+    font-size: 18px;
+    color: gray;
+}
+
+#testimonials-text h4{
+    color: red;
+}
+#testimonials-text h2{
+    color: white;
+}
+#testimonials-text p{
+    color: gray;
+}
+
+/* ----------- COMMENTS ----------- */
+
+#comment{
+    background-color: rgb(21, 21, 21);
+    padding: 0;
+    clip-path: polygon(
+      0% 0px,0px 0%,calc(100% - 0px) 0%,100% 20px,100% calc(100% - 50px),calc(90% - 10px) 100%,0px 100%,0 calc(100% - 20px)
+    );
+}
+#comment img{
+    border-radius: 50%;
+}
+#comment p{
+    color: gray;
+    font-size: 18px;
+}
+#comment h3{
+    color: white;
+}
+#comment h6{
+    color: red;
+}
+#comment i{
+    color: red;
+    font-size: 60px;
+}
+
+/* ----------- BLOG ----------- */
+
+.post-text h1{
+    color: red;
+}
+#post-pic{
+    overflow: hidden;
+    transition: 0.7s;
+}
+#post-pic:hover{
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+#post-pic img{
+    height: 300px;
+    object-fit: cover;
+    overflow-y: hidden;
+}
+.post-content{
+    background-color: rgb(21, 21, 21);
+}
+.post-content h6{
+    color: red;
+}
+.post-content span{
+    color: white;
+}
+.post-content h3{
+    color: white;
+}
+.post-content p{
+    color: grey;
+}
+
+/* ----------- FOOTER ----------- */
+
+.footer-links h3{
+    color: white;
+}
+.footer-links li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+}
+.footer-links li{
+    margin: 15px 0px;
+}
+
+.opening h3{
+    color: white;
+    margin-bottom: 17px;
+}
+.opening p{
+    color: gray;
+    font-size: 18px;
+}
+.opening span{
+    color: red;
+    font-style: italic;
+}
+
+.contact h3{
+    margin-bottom: 17px;
+    color: white;
+}
+.contact i{
+    color: red;
+    margin-top: 3px;
+}
+.contact p{
+    color: grey;
+    font-size: 18px;
+}
+
+.contact-icons a i{
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgb(21, 21, 21);
+    border-radius: 50%;
+    margin-left: 3px;
+    transition: 0.3s;
+}
+.contact-icons a i:hover{
+    color: red;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.newsletter h3{
+    color: white;
+}
+.newsletter label{
+    color: white;
+}
+input[type="email"]{
+    width: 25px;
+    background: rgb(21, 21, 21);
+    border-radius: 0;
+    color: white;
+}
+
+/* ----------- SIGN ----------- */
+
+.sign{
+    background-color: rgb(21, 21, 21);
+    border-top: 1px solid red;
+}
+.sign h3{
+    color: white;
+}
+.sign span{
+    color: red;
+}
+
+/* --- RESPONSIVE --- */
+
+@media(max-width: 768px){
+    .wrapper{
+        height: 45vh !important;
+    }
+    .content{
+        height: 45vh !important;
+        margin-top: 50px;
+        align-items: center;
+        position: absolute;
+    }
+    .content p{
+        font-size: 25px !important;
+        color: red;
+    }
+    .content h1{
+        font-size: 40px !important;
+        color: white;
+    }
+    .about-us{
+        margin: 15px 0px !important;
+        text-align: center;
+    }
+    .pricing-content{
+        text-align: center;
+    }
+    .pricing-content h1{
+        font-size: 45px;
+    }
+    .trainer-block{
+        height: 100%;
+    }
+    #comment img{
+        width: 20% !important;
+    }
+    #comment{
+        margin: 5px 0px;
+    }
+    #testimonials{
+        text-align: center;
+    }
+    #post-pic{
+        margin: 10px 0px;
+        text-align: center;
+    }
+    #footer-section{
+        text-align: center;
+        margin: 15px 0px;
+    }   
+    #footer-section input{
+        text-align: center;
+        margin: auto;
+    }
+}
+@media(min-width: 1700px){
+    .trainer-block{
+       height: 600px;
+    }
+    .feature-content{
+        height: 100%;
+    }
+}
