@@ -467,11 +467,134 @@ input[type="email"]{
         margin: auto;
     }
 }
-@media(min-width: 1700px){
+@media(min-width: 1620px){
     .trainer-block{
        height: 600px;
     }
     .feature-content{
         height: 100%;
+    }
+    #logo{
+        font-size: 40px;
+    }
+    #list li a{
+        font-size: 27px;
+    }
+    .content p{
+        font-size: 40px;
+    }
+    .content h1{
+        font-size: 85px;
+    }
+    #btn{
+        font-size: 25px;
+    }
+    .about-us h3{
+        font-size: 40px;
+    }
+    .about-us h2{
+        font-size: 55px;
+    }
+    .about-us p{
+        font-size: 23px;
+    }
+    .about-us h4{
+        font-size: 33px;
+    }
+    #features h1{
+        font-size: 55px;
+    }
+    .feature-content h3{
+        font-size: 40px;
+    }
+    .feature-content p{
+        font-size: 25px;
+    }
+    #pricing h1{
+        font-size: 55px;
+    }
+    .pricing-content h4{
+        font-size: 40px;
+    }
+    .pricing-content img{
+        width: 30%;
+    }
+    #pricing .pricing-content h1{
+        font-size: 60px;
+    }
+    #pricing p{
+        font-size: 22px;
+    }
+    .price-plan h2{
+        font-size: 40px;
+    }
+    .price-plan h3{
+        font-size: 35px;
+    }
+    .price-plan h3 span{
+        font-size: 90px;
+    }
+    .name h4, h3{
+        font-size: 25px;
+    }
+    .social i{
+        font-size: 35px;
+    }
+    #banner h3{
+        font-size: 40px;
+    }
+    #banner h1{
+        font-size: 50px;
+    }
+    #banner p{
+        font-size: 25px;
+    }
+    #testimonials-text h4{
+        font-size: 35px;
+    }
+    #testimonials-text h2{
+        font-size: 45px;
+    }
+    #testimonials p{
+        font-size: 22px;
+    }
+    #comment h3{
+        font-size: 37px;
+    }
+    #comment h6{
+        font-size: 25px;
+    }
+    .post-text h1{
+        font-size: 55px;
+    }
+    .post-content h6{
+        font-size: 25px;
+    }
+    .post-content h3{
+        font-size: 35px;
+    }
+    .post-content p{
+        font-size: 20px;
+    }
+    #footer-section h3{
+        font-size: 35px;
+    }
+    .footer-links li a{
+        font-size: 25px;
+    }
+    #footer-section p{
+        font-size: 25px;
+    }
+    .contact-icons a i{
+        font-size: 28px;
+    }
+    .newsletter label{
+        font-size: 25px;
+    }
+    .newsletter input{
+        font-size: 22px;
+    }
+    .sign h3{
+        font-size: 35px;
     }
 }
