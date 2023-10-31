@@ -597,4 +597,7 @@ input[type="email"]{
     .sign h3{
         font-size: 35px;
     }
+    #post-pic img{
+        height: 400px;
+    }
 }
